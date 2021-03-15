@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tổng các số chia hết cho 7</title>
+</head>
+<body>
+<script>
+    let num = +prompt("nhập số lượng số cần in ra :");
+    let count = 0;
+    let a = 0;
+    let i =0;
+    while (true) {
+        if (a % 7 === 0) {
+            a +=7;
+            i+=a;
+            count++;
+            } if (count === num) {
+            break;
+        }
+
+    }   document.write("tổng " + num + " số đầu tiên chia hết cho 7 là : " +i)
+
+</script>
+</body>
+</html>

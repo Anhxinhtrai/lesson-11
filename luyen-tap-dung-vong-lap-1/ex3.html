@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>viết số fibonacci</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let c;
+    let cout = 0;
+    let num = prompt("nhập số fibonacci cân");
+    if (num <= 0) {
+        alert("vui lòng nhập một số nguyên dương");
+    } else {
+        while (true) {
+            c = a + b;
+
+            document.write(c + "<br>");
+            a = b;
+            b = c;
+cout++;
+if (cout==num){
+    break;
+}
+        }
+    }
+</script>
+</body>
+</html>
